@@ -42,7 +42,7 @@ a:focus {
 
   background-size: cover;
   background-position: center;
-  background-image: url("/img-espaco003.jpg");
+  background-image: url("../img/espaco003.jpg");
 
   display: flex;
   flex-direction: column;
