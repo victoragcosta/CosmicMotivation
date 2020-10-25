@@ -27,6 +27,8 @@ a:visited {
   background-color: rgb(70, 1, 161);
   color: white;
   margin-bottom: 0.5em;
+
+  transition: color, background-color 300ms;
 }
 a:hover,
 a:focus {
@@ -83,6 +85,15 @@ h3 {
   font-size: 1rem;
   text-align: center;
   background-color: rgb(5, 189, 127);
+}
+
+h1,
+h3 {
+  transition: transform 100ms;
+}
+h1:hover,
+h3:hover {
+  transform: scale(1.05);
 }
 
 :root {
