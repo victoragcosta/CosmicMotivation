@@ -93,6 +93,7 @@ h3 {
 }
 h1:hover,
 h3:hover {
+  cursor: default;
   transform: scale(1.05);
 }
 
