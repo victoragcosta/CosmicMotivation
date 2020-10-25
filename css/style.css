@@ -1,0 +1,105 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.links-list {
+  max-height: calc(100% - 10rem);
+  width: calc(100% - 4rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a,
+a:visited {
+  font-size: 1.5rem;
+  background-color: rgb(70, 1, 161);
+  color: white;
+  margin-bottom: 0.5em;
+}
+a:hover,
+a:focus {
+  background-color: white;
+  color: rgb(70, 1, 161);
+}
+
+.container {
+  height: 100%;
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/espaco003.jpg");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.return,
+.return:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 1em;
+  left: 1em;
+
+  height: 1em;
+  width: 1em;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.return:hover,
+.return:focus {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  max-width: 80%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(12, 96, 223);
+}
+h3 {
+  max-width: 80%;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  background-color: rgb(5, 189, 127);
+}
+
+:root {
+  font-size: 40px;
+}
+@media (max-width: 800px) {
+  :root {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    font-size: 16px;
+  }
+}
